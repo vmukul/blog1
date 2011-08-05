@@ -8,7 +8,15 @@ gem 'rails', '3.0.9'
 
 gem 'activerecord-oracle_enhanced-adapter', '~> 1.3.1'
 
+platforms :ruby do
+  gem 'ruby-oci8', '~> 2.0.4'
+end
+
 gem 'ruby-plsql', '~> 0.4.3'
+
+gem 'jruby-openssl'
+
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
